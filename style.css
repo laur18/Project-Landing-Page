@@ -1,0 +1,31 @@
+.header {
+    display: flex;
+    height: 200px;
+    background-color: #202938;
+    justify-content: space-between;
+    padding: 0 32px;
+}
+
+.logo {
+    display: flex;
+    font-weight: bold;
+    color: white;
+    font-family: sans-serif;
+}
+
+.links {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-family: sans-serif;
+    justify-content: space-evenly;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: white;
+}
